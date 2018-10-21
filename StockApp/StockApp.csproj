@@ -307,10 +307,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Gann\GannCell.cs" />
-    <Compile Include="Assets\Scripts\Gann\GannMain.cs" />
+    <Compile Include="Assets\Scripts\GannPage\GannCell.cs" />
+    <Compile Include="Assets\Scripts\GannPage\GannMain.cs" />
+    <Compile Include="Assets\Scripts\ListPage\ListPage.cs" />
+    <Compile Include="Assets\Scripts\ListPage\TradingStockCell.cs" />
+    <Compile Include="Assets\Scripts\MainManager.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\PageEnum.cs" />
+    <Compile Include="Assets\Scripts\StockData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
